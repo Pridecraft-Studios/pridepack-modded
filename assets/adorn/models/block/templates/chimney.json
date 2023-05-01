@@ -1,0 +1,77 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "top": "minecraft:block/coal_block"
+  },
+  "elements": [
+    {
+      "from": [5, 0, 5],
+      "to": [11, 10, 11],
+      "faces": {
+        "down": { "texture": "#brick", "cullface": "down" },
+        "north": { "texture": "#brick" },
+        "south": { "texture": "#brick" },
+        "west": { "texture": "#brick" },
+        "east": { "texture": "#brick" }
+      },
+      "__comment": "Base"
+    },
+    {
+      "from": [4, 10, 4],
+      "to": [12, 11, 12],
+      "faces": {
+        "up": { "texture": "#top" },
+        "down": { "texture": "#brick" },
+        "north": { "texture": "#brick" },
+        "south": { "texture": "#brick" },
+        "west": { "texture": "#brick" },
+        "east": { "texture": "#brick" }
+      },
+      "__comment": "Top"
+    },
+    {
+      "from": [4, 11, 4],
+      "to": [5, 12, 12],
+      "faces": {
+        "up": { "texture": "#brick" },
+        "north": { "texture": "#brick" },
+        "south": { "texture": "#brick" },
+        "west": { "texture": "#brick" },
+        "east": { "texture": "#brick" }
+      },
+      "__comment": "Top border 1"
+    },
+    {
+      "from": [11, 11, 4],
+      "to": [12, 12, 12],
+      "faces": {
+        "up": { "texture": "#brick" },
+        "north": { "texture": "#brick" },
+        "south": { "texture": "#brick" },
+        "west": { "texture": "#brick" },
+        "east": { "texture": "#brick" }
+      },
+      "__comment": "Top border 2"
+    },
+    {
+      "from": [5, 11, 4],
+      "to": [11, 12, 5],
+      "faces": {
+        "up": { "texture": "#brick" },
+        "north": { "texture": "#brick" },
+        "south": { "texture": "#brick" }
+      },
+      "__comment": "Top border 3"
+    },
+    {
+      "from": [5, 11, 11],
+      "to": [11, 12, 12],
+      "faces": {
+        "up": { "texture": "#brick" },
+        "north": { "texture": "#brick" },
+        "south": { "texture": "#brick" }
+      },
+      "__comment": "Top border 4"
+    }
+  ]
+}

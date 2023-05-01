@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "#log"
+  },
+  "elements": [
+    {
+      "from": [1, 0, 1],
+      "to": [4, 14, 4],
+      "faces": {
+        "down": { "texture": "#log", "cullface": "down" },
+        "east": { "texture": "#log" },
+        "west": { "texture": "#log" },
+        "north": { "texture": "#log" },
+        "south": { "texture": "#log" }
+      }
+    }
+  ]
+}

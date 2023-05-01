@@ -1,0 +1,28 @@
+{
+  "parent": "block/block",
+  "render_type": "cutout",
+  "ambientocclusion": false,
+  "textures": {
+    "main": "adorn:block/chain_link_fence",
+    "edge": "adorn:block/chain_link_fence_edge",
+    "particle": "adorn:block/chain_link_fence"
+  },
+  "elements": [
+    {
+      "from": [8, 2, 7],
+      "to": [8, 14, 9],
+      "faces": {
+        "east": { "texture": "#main" },
+        "west": { "texture": "#main" }
+      }
+    },
+    {
+      "from": [7, 2, 8],
+      "to": [9, 14, 8],
+      "faces": {
+        "north": { "texture": "#main" },
+        "south": { "texture": "#main" }
+      }
+    }
+  ]
+}

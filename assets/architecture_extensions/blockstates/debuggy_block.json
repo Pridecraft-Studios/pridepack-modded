@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "": {
+            "model": "architecture_extensions:block/peculiar/debuggy_block"
+        }
+    }
+}

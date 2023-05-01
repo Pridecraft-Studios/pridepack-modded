@@ -1,0 +1,81 @@
+{
+  "parent": "block/block",
+  "render_type": "cutout",
+  "textures": {
+    "leg": "minecraft:block/dark_oak_log",
+    "top": "minecraft:block/dark_oak_planks",
+    "cloth_top": "adorn:block/trading_station_cloth_top",
+    "cloth_side": "adorn:block/trading_station_cloth_side",
+    "particle": "minecraft:block/dark_oak_planks"
+  },
+  "elements": [
+    {
+      "__comment": "Top",
+      "from": [0, 14, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "down": { "texture": "#top" }
+      }
+    },
+    {
+      "from": [1, 0, 1],
+      "to": [4, 14, 4],
+      "faces": {
+        "down": { "texture": "#leg", "cullface": "down" },
+        "up": { "texture": "#leg" },
+        "east": { "texture": "#leg" },
+        "west": { "texture": "#leg" },
+        "north": { "texture": "#leg" },
+        "south": { "texture": "#leg" }
+      }
+    },
+    {
+      "from": [12, 0, 1],
+      "to": [15, 14, 4],
+      "faces": {
+        "down": { "texture": "#leg", "cullface": "down" },
+        "up": { "texture": "#leg" },
+        "east": { "texture": "#leg" },
+        "west": { "texture": "#leg" },
+        "north": { "texture": "#leg" },
+        "south": { "texture": "#leg" }
+      }
+    },
+    {
+      "from": [1, 0, 12],
+      "to": [4, 14, 15],
+      "faces": {
+        "down": { "texture": "#leg", "cullface": "down" },
+        "up": { "texture": "#leg" },
+        "east": { "texture": "#leg" },
+        "west": { "texture": "#leg" },
+        "north": { "texture": "#leg" },
+        "south": { "texture": "#leg" }
+      }
+    },
+    {
+      "from": [12, 0, 12],
+      "to": [15, 14, 15],
+      "faces": {
+        "down": { "texture": "#leg", "cullface": "down" },
+        "up": { "texture": "#leg" },
+        "east": { "texture": "#leg" },
+        "west": { "texture": "#leg" },
+        "north": { "texture": "#leg" },
+        "south": { "texture": "#leg" }
+      }
+    },
+    {
+      "__comment": "Cloth",
+      "from": [0, 11, 0],
+      "to": [16, 16, 16],
+      "faces": {
+        "up": { "texture": "#cloth_top", "cullface": "up" },
+        "east": { "texture": "#cloth_side", "cullface": "east" },
+        "west": { "texture": "#cloth_side", "cullface": "west" },
+        "north": { "texture": "#cloth_side", "cullface": "north" },
+        "south": { "texture": "#cloth_side", "cullface": "south" }
+      }
+    }
+  ]
+}
