@@ -1,6 +1,0 @@
-{
-  "parent": "adorn:block/templates/crate",
-  "textures": {
-    "side": "adorn:block/wheat_crate"
-  }
-}

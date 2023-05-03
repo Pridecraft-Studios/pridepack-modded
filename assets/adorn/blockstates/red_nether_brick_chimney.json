@@ -1,6 +1,0 @@
-{
-  "variants": {
-    "connected=false": { "model": "adorn:block/red_nether_brick_chimney" },
-    "connected=true": { "model": "adorn:block/red_nether_brick_chimney_middle" }
-  }
-}
